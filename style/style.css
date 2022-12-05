@@ -1,0 +1,58 @@
+body{
+    background-color: navy;
+    font-family: Verdana, Arial, Tahoma, sans-serif;
+}
+#tartalom{
+    background: skyblue;
+    color: navy;
+    margin-top: 0;
+    margin: auto;
+    height: 100vh;
+    border-left: 15px double blue;
+    width: 960px;
+}
+h1, h2 {
+	font-variant: small-caps;
+    margin: 10px;
+}
+h1 {
+    border-bottom: 1px solid blue;
+    width: 80%;
+}
+
+div.fénykép img{
+    margin: 10px;
+    border: 1px solid blue;
+}
+
+table {
+    margin: 0px auto;
+    padding: 10px;
+    width:80%;
+    border: 1px solid blue;
+}
+
+tr:nth-child(even) {
+    background-color: cornflowerblue;
+}
+
+td:last-child {
+    text-align: right;
+}
+span{
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+p{
+    text-align: justify;
+    padding: 10px;
+}
+.fénykép{
+    float: right;
+}
+.fénykép img{
+    width: 150px;
+}
